@@ -1,0 +1,520 @@
+@import '../../../style/UI/global.scss';
+
+// POST 外框架
+.a {
+  background-size: cover;
+  background: $primary;
+}
+
+.community-post {
+  // margin: auto;
+  width: 100%;
+  height: 450px;
+  margin: auto auto;
+  text-align: center; //格字內元素置中
+  .postinput {
+    display: flex;
+    justify-content: center;
+    // 上傳圖片的範圍 背景相機
+
+   
+    
+    .img-uploader {
+        background: url('../images/icon-camera.svg') center center no-repeat;
+      
+      // background-size: contain;
+      display: flex;
+      width: 175px;
+      height: 250px;
+      border: 2px white solid;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      overflow: hidden;
+      ::-webkit-scrollbar {
+        overflow: hidden;
+      }
+      .previewer {
+        height: 100%;
+        width: 100%;
+        // position: absolute;
+        left: 0;
+        top: 0;
+        object-fit: cover;
+
+      }
+     
+    }
+  }
+}
+
+// 今天
+.post-h1 {
+  color: $primary;
+  font-size: 3.5rem;
+  margin-top: -20px;
+  text-align: center;
+}
+
+// 想分享什麼
+.post-text {
+  width: 800px;
+  height: 10px;
+  // font-size: 2.5rem;
+  color: white;
+}
+.post-h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+// 重要按鈕
+.postClass {
+  // display: inline-block;
+  width: 100px;
+  height: 200px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.button1 {
+  height: 125px;
+  width: 60px;
+  background: $primary;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px 20px 0px 0px;
+  transition-duration: 0.8s;
+  // border: 2px solid $primary;
+  font-size: 20px;
+}
+.button1:hover {
+  background: white;
+  color: $primary;
+}
+.button1:focus {
+  background: white;
+  color: $primary;
+}
+.button2 {
+  background: $primary;
+  color: white;
+  border: 2px solid white;
+  transition-duration: 0.4s;
+  height: 125px;
+  width: 60px;
+  border-radius: 0px 0px 20px 20px;
+  font-size: 20px;
+}
+.button2:hover {
+  background: $primary;
+  color: white;
+}
+.button2:focus {
+  background: white;
+  color: $primary;
+}
+
+// 標籤
+.postTag {
+  // display: inline-block;
+  width: 175px;
+  height: 250px;
+  // border: 2px $primary solid;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+// TAG 上方
+.postTag1 {
+  // display: inline-block;
+  width: 175px;
+  height: 125px;
+  border: 2px white solid;
+  border-radius: 20px;
+  display: inline-block;
+  padding-top: 8px;
+}
+
+.community-Input {
+  width: 60%;
+  padding: auto auto;
+  margin: 3px auto;
+  box-sizing: unset;
+  border: none;
+  border-bottom: 2px solid white;
+  background: $primary;
+}
+
+.postLabel {
+  font-size: 20px;
+  color: white;
+}
+
+// TAG 下方
+.postTag2 {
+  width: 175px;
+  height: 125px;
+  border: 2px white solid;
+  border-radius: 20px;
+  margin-top: -2px;
+  padding-top: 5px;
+}
+.btnIcon1 {
+  margin: 3px 3px 1px 1px;
+  font-size: 15px;
+  width: 60px;
+  background: #97bbbd;
+  border-radius: 10px;
+  border: 2px #97bbbd solid;
+  color: white;
+  opacity: 0.5;
+}
+.btnIcon1:hover {
+  background: #97bbbd;
+  color: white;
+  opacity: 1;
+}
+.btnIcon1:focus {
+  background: #97bbbd;
+  color: white;
+  opacity: 1;
+}
+
+.btnIcon2 {
+  margin: 3px 3px 1px 1px;
+  font-size: 15px;
+  width: 60px;
+  background: #b29096;
+  border-radius: 10px;
+  border: 2px #b29096 solid;
+  color: white;
+  opacity: 0.5;
+}
+.btnIcon2:hover {
+  background: #b29096;
+  color: white;
+  opacity: 1;
+}
+.btnIcon2:focus {
+  background: #b29096;
+  color: white;
+  opacity: 1;
+}
+.btnIcon3 {
+  margin: 3px 3px 1px 1px;
+  font-size: 15px;
+  width: 60px;
+  background: #6a5f4b;
+  border-radius: 10px;
+  border: 2px #6a5f4b solid;
+  color: white;
+  opacity: 0.5;
+}
+.btnIcon3:hover {
+  background: #6a5f4b;
+  color: white;
+  opacity: 1;
+}
+.btnIcon3:focus {
+  background: #6a5f4b;
+  color: white;
+  opacity: 1;
+}
+
+.btnIcon4 {
+  margin: 3px 3px 1px 1px;
+  font-size: 15px;
+  width: 60px;
+  background: #becdbe;
+  border-radius: 10px;
+  border: 2px #becdbe solid;
+  color: white;
+  opacity: 0.5;
+}
+.btnIcon4:hover {
+  background: #becdbe;
+  color: white;
+  opacity: 1;
+}
+.btnIcon4:focus {
+  background: #becdbe;
+  color: white;
+  opacity: 1;
+}
+.community-tittle {
+  width: 100%;
+  height: 60px;
+  padding: 18px 20px;
+  box-sizing: border-box;
+  border: 2px white solid;
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 16px;
+  color: white;
+  justify-content: flex-end;
+  overflow: hidden;
+  resize: none;
+}
+.community-textarea {
+  width: 350px;
+  min-height: 130px;
+  padding: 18px 20px;
+  box-sizing: border-box;
+  border: 2px white solid;
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 16px;
+  color: white;
+  justify-content: flex-end;
+  resize: none;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    width: 10px;
+    height: 90%;
+    background-color: transparent;
+    border-radius: 33px;
+  }
+  // 輪軸bar
+  &::-webkit-scrollbar-thumb {
+    background: #b29096;
+    scrollbar-width: 3px;
+    border-radius: 50px;
+
+   
+  }
+}
+
+
+.buttonDiv {
+  // height: 50px;
+}
+.community-submit {
+  margin-top: 5px;
+  background: white;
+  color: $primary;
+  border: 2px solid $primary;
+  transition-duration: 0.4s;
+  height: 45px;
+  width: 350px;
+  border-radius: 20px;
+  font-size: 18px;
+  justify-content: flex-end;
+  &:hover {
+    background: $primary;
+    color: white;
+    border: 2px solid white;
+  }
+}
+
+.l-01 {
+  letter-spacing: 0.1rem;
+}
+
+// 發文送出區
+.post-content-area {
+  width: 80%;
+  // 文字輸入區
+  .post-content-container {
+    width: 350px;
+    height: 250px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    .post-content-textarea {
+      width: 100%;
+      height: 200px;
+      display: flex;
+    }
+  }
+}
+.mt-md-50 {
+  margin-top: 50px;
+}
+
+@media (max-width: 576px) {
+  .mt-md-50 {
+    margin-top: 0;
+  }
+  .filled-md-100 {
+    width: 80vw;
+  }
+}
+
+// 測試
+
+.upload_zone {
+  width: 100%;
+  height: 100%;
+  margin: 0 0;
+  padding: 0 0;
+  cursor: pointer;
+  // background-color: aqua;
+}
+
+/* 參考資料 : https://www.oxxostudio.tw/articles/201412/css-boxsizing-backgroundclip.html */
+.upload_zone_enter {
+  background: #becdbe;
+  border: 10px dashed black;
+  background-clip: content-box;
+}
+
+.obj {
+  width: 200px;
+  height: 200px;
+}
+
+// 未登入時的POST頁面
+.compost-unlogin {
+  height: 250px;
+}
+
+// input 隱藏格
+.com-PostCircle {
+  z-index: 0.1;
+  height: 10px;
+  width: 10px;
+  display: none;
+}
+
+.com-PostButtontext {
+  font-size: 20px;
+  writing-mode: vertical-lr;
+  text-align: center;
+  margin-top: 38%;
+  span{
+    display: flex;
+    vertical-align:middle;
+  }
+}
+
+//   日常按鈕
+
+.com-PostButton1 {
+  background-color: $primary;
+  color: white;
+  border: 2px solid white;
+  transition-duration: 0.4s;
+  height: 130px;
+  width: 60px;
+  border: 2px white solid;
+  border-radius: 20px 20px 0px 0px;
+  z-index: 1;
+  &:hover {
+    background-color: white;
+    color: $primary;
+  }
+  &:focus {
+    background-color: white;
+    color: $primary;
+  }
+  &.active {
+    background-color: white;
+    color: $primary;
+  }
+}
+.com-PostButtontext {
+  font-size: 20px;
+  writing-mode: vertical-lr;
+  text-align: center;
+  margin-top: 40%;
+}
+
+.com-PostButton02 {
+  // -webkit-appearance: none;
+  z-index: 0.1;
+  display: none;
+}
+.com-PostButton2 {
+  background-color: $primary;
+  color: white;
+  border: 2px solid white;
+  transition-duration: 0.4s;
+  height: 130px;
+  width: 60px;
+  border-radius: 0px 0px 20px 20px;
+  margin-top: -16px;
+
+  z-index: 1;
+  &:hover {
+    background-color: white;
+    color: $primary;
+  }
+  &.active {
+    background-color: white;
+    color: $primary;
+  }
+}
+
+.com-PostButton2 label:focus {
+  background-color: white;
+  color: $primary;
+}
+
+// 討論標籤
+.post-tag {
+  height: 30px;
+  margin: 5px 5px 3px 3px;
+  font-size: 15px;
+  width: 60px;
+  background-color: $primary;
+  border-radius: 10px;
+  border: 2px white solid;
+  color: white;
+  transition-duration: 0.4s;
+  &:hover {
+    background-color: white;
+    color: $primary;
+  }
+  &:focus {
+    background-color: white;
+    color: $primary;
+  }
+}
+
+//  日常按鈕
+.post-button-top {
+  background-color: $primary;
+  color: white;
+  border: 2px solid white;
+  transition-duration: 0.4s;
+  height: 125px;
+  width: 60px;
+  border: 2px white solid;
+  border-radius: 20px 20px 0px 0px;
+  font-size: 20px;
+  &:hover {
+    background-color: white;
+    color: $primary;
+  }
+  &:focus {
+    background-color: white;
+    color: $primary;
+  }
+  &.active {
+    background-color: white;
+    color: $primary;
+  }
+}
+
+//  討論按鈕
+.post-button-bottom {
+  background-color: $primary;
+  color: white;
+  border: 2px solid white;
+  transition-duration: 0.4s;
+  height: 125px;
+  width: 60px;
+  border-radius: 0px 0px 20px 20px;
+  font-size: 20px;
+  &:hover {
+    background-color: white;
+    color: $primary;
+  }
+  &:focus {
+    background-color: white;
+    color: $primary;
+  }
+  &:active {
+    background-color: white;
+    color: $primary;
+  }
+}

@@ -1,0 +1,51 @@
+@import '../../Community.scss';
+
+.Daily-Page {
+    .daily-title {
+      width: 100%;
+    }
+    .daily-post-area {
+      width: 100%;
+      border: 2px solid $primary;
+      margin: 0 auto;
+        .daily-container {
+          margin: 2rem auto;
+      }
+    }
+}
+
+.daily-search {
+  width: 40vw;
+  display: inline-block;
+    input {
+      min-width: 65%;
+      max-width: 80%;
+      height: 3rem;
+    }
+    Button{
+      height: 3rem ;
+      width: 3rem;
+      img {
+        margin: 0 0;
+        padding-left: 0;
+      }
+  }
+  }
+  
+  // 搜尋
+  // md以下
+  @media (max-width: 767px) {
+    .vw-md-50 {
+     width: 40vw;
+    }
+    .daily-post-area{
+      width: 120%;
+    }
+  //   .daily-container {
+  //     margin: 0 auto;
+  // }
+  }
+
+  .vertical-middle{
+    vertical-align: middle;
+  }

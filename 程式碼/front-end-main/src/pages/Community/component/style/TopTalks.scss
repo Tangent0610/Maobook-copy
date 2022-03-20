@@ -1,0 +1,127 @@
+@import "../../../../style/UI/global.scss";
+
+// // {{P-1}}
+// // [[[ TopTalks.js ==> 大家都在討論 ]]] //
+
+.mao-rounded {
+  border-radius: 11px;
+}
+
+// 大家都在聊
+.top-talks-container {
+//   height: 48%;
+  max-width: 60%;
+//   border: 3px dotted pink;
+  position: absolute;
+  // left: 38%;
+  top: 2%;
+  // 大家都在聊
+  .everyone {
+    height: 18%;
+    max-width: 70%;
+    // display: flex;
+    align-items: flex-end;
+    img {
+      // height: 99%;
+      width: 100%;
+    }
+  }
+
+  // 邊框
+  .top-talks-list {
+    max-height: 43vh;
+    max-width: 93%;
+    display: grid;
+    align-content: center;
+    border: 1px solid $primary;
+    // position: absolute;
+    border-radius: $mao-rounded;
+    .talk-rows {
+      max-height: 75%;
+      min-width: 55%;
+      max-width: 93%;
+      position: relative;
+      margin: 1.3% 0;
+    //   right: 5%;
+    left: -8%;
+      .talks {
+        // text-align: center;
+        padding: 1rem 1rem;
+        // 標題濃縮
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}
+
+//\\ [[[{ R }]]] //\\
+//\\ [[[{ W }]]] //\\
+//\\ [[[{ D }]]] //\\
+// $page-height: calc((100vh - $nav-height) * 0.18);
+// lg
+@media (min-width: 992px) {
+  // Intro主圖
+  // .cover {
+  //   height: auto;
+  //   max-width: 80vw;
+  //   margin-top: $page-height;
+  //   img {
+  //     height: auto;
+  //     width: 85%;
+  //   }
+  // }
+}
+// md
+@media (min-width: 768px) {
+  // Intro主圖
+  // $page-height: calc((100vh - $nav-height) * 0.24);
+  // .cover {
+  //   height: 80vh;
+  //   max-width: 80vw;
+  //   margin-top: $page-height;
+  //   img {
+  //     height: auto;
+  //     max-width: 90%;
+  //   }
+  // }
+  .top-talks-container {
+    height: 40%;
+    left: 28%;
+  }
+  .top-talks-list {
+    height: 20vmax;
+    
+}
+}
+// sm 手機版
+@media (min-width: 576px) {
+  .cover {
+    display: none;
+    img {
+      display: none;
+    }
+  }
+  .paw-1 {
+    display: none;
+  }
+  .top-talks-container {
+   display: none;
+  }
+}
+// xs版 手機版
+@media (max-width: 575px) {
+  .cover {
+    display: none;
+    img {
+      display: none;
+    }
+  }
+  .paw-1 {
+    display: none;
+  }
+  .top-talks-container {
+    display: none;
+   }
+}

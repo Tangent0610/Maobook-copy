@@ -1,0 +1,147 @@
+.helpedTask0 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.helpedTask {
+  // border: 2px #f6bc54 solid;
+  // border-radius: 10px;
+  width: 700px;
+  height: 100%;
+}
+
+.helpEvent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+  // margin-left: -20px;
+}
+
+.helpEventDate {
+  width: 15px;
+  color: #6a5f4b;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: -3px;
+}
+
+.helpEventDiv {
+  display: flex;
+  border: 1px #f6bc54 solid;
+  width: 500px;
+  height: 55px;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  margin-left: 25px;
+  margin-right: 10px;
+}
+
+.helpedTaskEventDiv {
+  display: flex;
+  border: 1px #f6bc54 solid;
+  width: 600px;
+  height: 55px;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  margin-left: 25px;
+  margin-right: 10px;
+}
+
+.helpEventRegion {
+  border: 1px solid #f6bc54;
+  background-color: #f6bc54;
+  color: white;
+  max-width: 15%;
+  margin: 12px 2px;
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.helpEventCategory,
+.helpEventTags {
+  border: 1px solid #6a5f4b;
+  background-color: #6a5f4b;
+  color: white;
+  max-width: 15%;
+  margin: 12px 2px;
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.helpEventprice {
+  border: 1px solid #f6bc54;
+  color: #f6bc54;
+  width: 80px;
+  margin: 12px 2px;
+  padding: 2px 0px 2px 0px;
+  border-radius: 10px;
+  font-size: 15px;
+  display: flex;
+}
+
+.helpEventTitle {
+  float: left;
+  margin-left: 10px;
+  width: 30px;
+  text-align: left;
+}
+
+.helpEventPriceamount {
+  float: right;
+  width: 30px;
+  text-align: right;
+}
+
+.helpEventCasetitle {
+  width: 30%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 11px 11px;
+  padding: 5px 3px 3px 3px;
+  font-size: 15px;
+  color: #6a5f4b;
+}
+
+.HelpedTask1 {
+  // max-width: 10%;
+  margin: 12px 10px;
+  position: absolute;
+  right: 3%;
+}
+
+.HelpedTaskPawbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // margin-right: 15px;
+  // width: 200px;
+  margin-left: 25px;
+  margin-top: -15px;
+  font-size: 15px;
+  &:hover {
+    animation: headShake;
+    animation-duration: 1s;
+  }
+}
+
+.HelpedTaskTakercount {
+  color: #f6bc54;
+  font-size: 25px;
+}
+
+.HelpedTaskPawicon {
+  margin-left: -20px;
+  margin-bottom: -20px;
+  transform: rotate(30deg);
+}

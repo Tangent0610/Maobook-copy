@@ -1,0 +1,196 @@
+@import "../../Community.scss";
+
+
+// .container {
+//   width: 85%;
+//   height: 100%;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-around;
+// }
+
+// .maintitle {
+//   left: 0%;
+//   color: $primary;
+//   font-size: large;
+// }
+
+// // .mainframe {
+// //   border: 2px orange solid;
+// //   border-radius: 10px;
+// // }
+
+// .bars {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   margin: 30px 0px;
+//   // 日期
+//   .headdate {
+//     color: $primary;
+//     font-size: 20px;
+//     margin-left: 15px;
+//   }
+//   // 頭像
+// $avatar-length: 4rem;
+// .daily-avatar {
+//   height: $avatar-length;
+//   width: $avatar-length;
+//   margin: 0 0.5rem;
+// }
+
+//   .data-display {
+//     display: flex;
+//     border: 1px $primary solid;
+//     max-width: 80vw;
+//     border-radius: 30px;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//     position: relative;
+//     margin-left: 25px;
+//     margin-right: 30px;
+//     // 分類、標籤
+//     .category,
+//     .tags {
+//       border: 1px solid $primary;
+//       background-color: $primary;
+//       color: white;
+//       max-width: 10%;
+//       margin: 12px 2px;
+//       padding: 3px;
+//     }
+
+   
+
+//     .casetitle {
+//       max-width: 40%;
+//       margin: 12px 20px;
+//       padding: 5px 3px 3px 3px;
+//     }
+
+//     .arrowicon {
+//       max-width: 10%;
+//       margin: 12px 10px;
+//       padding: 3px;
+//       position: absolute;
+//       right: 1%;
+//     }
+
+//     .pawbox {
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       margin-right: 15px;
+//     }
+
+//     .pawicon {
+//       margin-right: 10px;
+//     }
+
+//   }
+// }
+.discuss-post-area{
+  // width: 100%;
+  border: 2px solid $primary;
+  .dicuss-container{
+    position: relative;
+    top: 5%;
+    // left: 1.8%;
+    margin: 1rem 1rem 1rem 1rem ;
+  }}
+
+  .Add-btn-discuss{
+    background: $primary;
+    border-radius: 11px;
+    height: 33px;
+    width: 150px;
+    color: white;
+    display: block;
+    position: relative;
+    left: 42%;  
+    margin: 2rem 0;
+  }
+
+
+  // [[[BAR]]] //
+  
+  .main-title {
+    left: 0%;
+    color: $primary;
+    font-size: large;
+  }
+  
+  // .mainframe {
+  //   border: 2px orange solid;
+  //   border-radius: 10px;
+  // }
+  
+  .bars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    // 日期
+    .head-date {
+      color: $primary;
+      font-size: 20px;
+      margin-left: 15px;
+    }
+    // 頭像
+  $avatar-length: 4rem;
+  .daily-avatar {
+    height: $avatar-length;
+    width: $avatar-length;
+    margin: 0 0.5rem;
+  }
+  
+    .data-display {
+      display: flex;
+      border: 1px $primary solid;
+      width: 58vw;
+      border-radius: 30px;
+      padding-left: 15px;
+      padding-right: 15px;
+      position: relative;
+      margin-left: 25px;
+      margin-right: 30px;
+      // 分類、標籤
+      .category,
+      .tags {
+        border: 1px solid $primary;
+        background-color: $primary;
+        color: white;
+        max-width: 10%;
+        margin: 12px 2px;
+        padding: 3px;
+      }
+  
+     
+  
+      .case-title {
+        max-width: 40%;
+        margin: 12px 20px;
+        padding: 5px 2px 3px 2px;
+      }
+  
+      .arrowicon {
+        max-width: 10%;
+        margin: 12px 10px;
+        padding: 3px;
+        position: absolute;
+        right: 1%;
+      }
+  
+      .pawbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15px;
+      }
+  
+      .pawicon {
+        margin-right: 10px;
+      }
+  
+    }
+  }

@@ -1,0 +1,181 @@
+// maobook 字 logo
+.logo-word {
+  padding: 6rem 10rem 1rem 0;
+  text-align: end;
+  img {
+    max-width: 370px;
+  }
+}
+// 大圖 logo
+.logo-noword {
+  max-width: 280px;
+  top: -170px;
+  left: 180px;
+}
+
+// maobook 和 logo 的 RWD for pad (992px)
+@media only screen and (max-width: 992px) {
+  .logo-word {
+    margin: auto;
+    padding: 2rem 1rem 14rem 1rem;
+    text-align: center;
+    img {
+      max-width: 370px;
+    }
+  }
+  .logo-noword {
+    max-width: 280px;
+    top: -190px;
+    left: 50%;
+    transform: translateX(-55%);
+  }
+}
+// maobook 和 logo 的 RWD for mobile (768px)
+@media only screen and (max-width: 768px) {
+  .logo-word {
+    padding: 1rem 1rem 10rem 1rem;
+    img {
+      max-width: 220px;
+    }
+  }
+  .logo-noword {
+    max-width: 180px;
+    top: -22%;
+    left: 50%;
+    transform: translateX(-55%);
+  }
+}
+
+// 立即註冊圖
+.img-word {
+  max-width: 170px;
+  margin: auto;
+  padding-top: 60%;
+  padding-bottom: 10%;
+}
+// 註冊表單
+.signup-form {
+  padding-top: 40%;
+  padding-bottom: 10%;
+  .errMsg {
+    padding: 0.3rem;
+    color: rgb(175, 2, 2);
+    font-size: 0.5rem;
+  }
+}
+.signup-form input {
+  background: none;
+  border: 1.5px solid white;
+  border-radius: 2rem;
+  height: 2rem;
+  color: white;
+  transition: 0.4s;
+}
+.signup-form input::placeholder {
+  color: white;
+  font-size: 0.9rem;
+}
+.signup-form input:focus {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+// 最貼心的寵物管家 slogan
+.sigh-slogan {
+  padding: 16px 150px 25px 16px;
+}
+
+// 第三方登入
+.thirdParty-signup {
+  justify-content: center;
+}
+.thirdParty-icon {
+  margin-left: 20px;
+  padding: 0.8rem 1.3rem;
+  border: 1.5px solid white;
+  border-radius: 1.2rem;
+  font-size: 2.5rem;
+}
+
+// 註冊按鈕
+.signUp-btn {
+  margin-top: 1rem;
+  padding-right: 150px;
+  text-align: right;
+}
+.signUp-btn button {
+  background: white;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  transition: 0.4s;
+}
+.signUp-btn button:hover {
+  background: #6a5f4b;
+}
+.left-paw {
+  padding-bottom: 3rem;
+}
+.right-paw {
+  padding-top: 3rem;
+}
+
+// 註冊區塊的 RWD for pad (992px)
+@media only screen and (max-width: 992px) {
+  .signup-form {
+    padding: 6rem 4rem 1rem 4rem;
+  }
+  .signup-form input {
+    height: 3rem;
+    &::placeholder {
+      font-size: 1.2rem;
+    }
+  }
+  .login-divider {
+    margin: 20px auto;
+    height: 1px;
+    width: 70vw;
+    background: white;
+    border: none;
+  }
+  .thirdParty-signup {
+    justify-content: center;
+  }
+  .thirdParty-icon {
+    margin: 20px;
+    &:last-child {
+      margin-right: 20px;
+    }
+  }
+  .signUp-btn {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  .signUp-btn button {
+    font-size: 2rem;
+  }
+}
+// 註冊區塊的 RWD for mobile (768px)
+@media only screen and (max-width: 768px) {
+  .signup-form {
+    padding: 40px 30px 0 30px;
+  }
+  .signup-form input {
+    height: 2.5rem;
+    &::placeholder {
+      font-size: 1rem;
+    }
+  }
+  .divider {
+    margin: auto;
+  }
+  .thirdParty-icon {
+    border-radius: 50%;
+  }
+  .signUp-btn {
+    top: 125%;
+    button {
+      font-size: 1.2rem;
+    }
+  }
+}

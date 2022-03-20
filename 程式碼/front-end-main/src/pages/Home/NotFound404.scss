@@ -1,0 +1,71 @@
+// 404 圖
+.not-found-img {
+  max-width: 290px;
+  margin: 0;
+  padding-top: 15%;
+  padding-left: 10%;
+}
+.not-found-h5 {
+  padding: 3rem 0 3rem 0;
+}
+.bottom-section {
+  height: 200px;
+}
+// 大圖 logo
+.notfound-logo-noword {
+  max-width: 350px;
+  top: -140%;
+  left: 15%;
+}
+// Not Find 字圖
+.not-found-word {
+  max-width: 70px;
+  top: -140%;
+  right: 20%;
+}
+
+// maobook 和 logo 的 RWD for pad (992px)
+@media only screen and (max-width: 992px) {
+  .not-found-img {
+    margin: auto;
+    padding: 20% 0 5% 0;
+  }
+  .not-found-h5 {
+    padding-top: 3rem;
+    padding-bottom: 15rem;
+  }
+  .bottom-section {
+    height: 400px;
+  }
+  .notfound-logo-noword {
+    max-width: 300px;
+    left: 50%;
+    transform: translateX(-55%);
+    top: -50%;
+  }
+}
+// maobook 和 logo 的 RWD for mobile (768px)
+@media only screen and (max-width: 768px) {
+  .not-found-img {
+    max-width: 220px;
+    padding-top: 10%;
+  }
+  .not-found-h5 {
+    padding-top: 3rem;
+    padding-bottom: 8rem;
+  }
+  .bottom-section {
+    height: 350px;
+  }
+  .notfound-logo-noword {
+    max-width: 160px;
+    top: -20%;
+  }
+}
+
+// 會員登入圖
+.img-meo-word {
+  max-width: 900px;
+  right: 40%;
+  top: 17%;
+}

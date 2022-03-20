@@ -1,0 +1,61 @@
+@import "../../../style/UI/global.scss";
+
+// border弧度
+$mao-border: 33px;
+
+// 固定頭貼比例 1:1
+$avatar-length: 4rem;
+// 最外層
+.helpcard {
+  width: 230px;
+  min-height: 63vh;
+  max-height: 66vh;
+  // border: 1px solid #ccc;
+  display: flex;
+  margin: 0 0.1rem;
+  // 發文者頭貼
+  .helpavatar {
+    height: $avatar-length;
+    width: $avatar-length;
+  }
+
+  // card邊框以內 [#標籤, CARD, 讚數留言統計]
+  .card-body {
+    width: 100%;
+    height: 100%;
+    border: 1px solid $primary;
+    padding: 0 0;
+    border-radius: $mao-border;
+    overflow: hidden;
+    // 預設圖片為PHOTO.svg
+    .card-img {
+      img {
+        // height: auto;
+        width: 120%;
+        //   border-radius: $mao-border $mao-border 0 0;
+        // filter: drop-shadow(0 1px 3px 5px black);
+      }
+    }
+    // 貼文預覽
+    .card-content {
+      padding: 1rem 0;
+    }
+  }
+  //按讚數、留言數
+  .cardprice {
+    text-decoration: none;
+    color: $secondary;
+  }
+}
+
+// RWD
+
+@media (max-width: 767px) {
+  .helpcard {
+    width: 260px;
+  }
+}
+
+.cardregion {
+  text-align: center;
+}

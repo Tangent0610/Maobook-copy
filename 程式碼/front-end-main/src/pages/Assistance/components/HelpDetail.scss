@@ -1,0 +1,262 @@
+.helpdetailmodal{
+width: 800px;
+height: 453px;
+margin-left: -160px;
+border-radius: 10px;
+// background-color: #6a5f4b;
+}
+
+.helpdetails {
+  position: relative;
+  display: inline-block;
+  clear: both;
+  width: 880px;
+  margin-left: -30px;
+  border-radius: 20px;
+  border: 1px solid #f6bc54;
+  background-color: white;
+}
+
+.lefeside {
+  float: left;
+  width: 50%;
+  border-radius: 20px 0 0 20px;
+  height: 450px;
+}
+
+.rightside {
+  float: left;
+  width: 50%;
+  height: 450px;
+  border-radius: 0 20px 20px 0;
+  border-left: #6a5f4b 1px solid;
+}
+
+.helpdetailimg {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 0 0 20px;
+}
+
+.righthead {
+  display: inline-flex;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+.helpdetailuserimage{
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  border: 1px #6a5f4b solid;
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.helpdetailusername {
+  margin: 25px 20px 5px 5px;
+  font-size: 15px;
+}
+
+.helpdetailclose {
+  position: absolute;
+  margin: 5px 20px 5px 5px;
+  right: 0%;
+}
+
+.helpclosebutton{
+  width: 25px;
+  height: 25px;
+}
+
+.rightdivider {
+  border: #f6bc54 0.5px solid;
+  margin: 10px 10px;
+}
+
+.rightbody {
+  display: block;
+  height: 270px;
+}
+
+.bodyinfo1 {
+  display: flex;
+  position: relative;
+  margin: 5px 20px;
+}
+
+.detailregion {
+  border: 1px solid #f6bc54;
+  background-color: #f6bc54;
+  color: white;
+  margin: 5px 2px;
+  padding: 3px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.detailprice {
+  color: white;
+  background-color: #f6bc54;
+  border: 1px solid #f6bc54;
+  margin: 5px 2px;
+  padding: 3px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.detailcategory,
+.detailtags {
+  border: 1px solid #6a5f4b;
+  background-color: #6a5f4b;
+  color: white;
+  margin: 5px 2px;
+  padding: 3px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.detailimg {
+  position: absolute;
+  right: 3%;
+}
+
+.bodyinfo2 {
+  margin: 5px 20px;
+}
+
+.detailcasetitle {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.casecontent {
+  margin: 15px 30px 30px 30px;
+  font-size: 15px;
+  height: 100px;
+}
+
+.detailtime{
+  color: #6a5f4b;
+  font-size: 16px;
+}
+
+.rightfoot {
+  display: flex;
+  position: relative;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+  height: 120px;
+}
+
+.showpaw {
+  float: left;
+  width: 25%;
+  padding-top: 20px;
+  text-align: center;
+  margin-left: 3px;
+}
+
+.pawicon {
+  margin-left: 5px;
+}
+
+.pawtext {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.takerpost {
+  float: left;
+  width: 75%;
+}
+
+.helpshare {
+  position: absolute;
+  right: 5%;
+}
+
+.contactchoice {
+  display: flex;
+  margin: 0 2px;
+}
+
+.helpchoosecontact{
+  color: white;
+  background-color: #f6bc54;
+  border: 2px solid white;
+  transition-duration: 0.4s;
+  border-radius: 20px;
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+.choosetitle {
+  margin: 5px 20px 0 0;
+  font-size: 14px;
+}
+
+.choosephone {
+  border: 1px solid #f6bc54;
+  background-color: #f6bc54;
+  color: white;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.chooseemail {
+  border: 1px solid #f6bc54;
+  background-color: #f6bc54;
+  color: white;
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.takercontenttitle{
+  font-size: 14px;
+  margin-left: 2px;
+}
+
+.takepostbutton {
+  border: 1px solid #f6bc54;
+  background-color: #f6bc54;
+  color: white;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 10px;
+  top: 50%;
+  right: 5%;
+  position: absolute;
+}
+
+.takerpost {
+  display: block;
+}
+
+.textpost {
+  display: flex;
+}
+
+.takertextarea {
+  border: 1px solid #f6bc54;
+  margin-left: 15px;
+  height: 70px;
+}
+
+.sendpost {
+  margin: 10px 0;
+}

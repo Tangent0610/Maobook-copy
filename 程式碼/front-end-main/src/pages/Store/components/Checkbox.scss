@@ -1,0 +1,22 @@
+.checkbox {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  padding: 0;
+  cursor: pointer;
+}
+input[type='checkbox'] {
+  display: none;
+}
+input[type='checkbox'] + span {
+  display: inline-block;
+  padding-left: 25px;
+  line-height: 20px;
+  background: url('../storePic/unchecked.svg') no-repeat left top;
+  user-select: none;
+}
+input[type='checkbox']:checked + span {
+  background: url('../storePic/checked.svg') no-repeat left top;
+}

@@ -1,0 +1,183 @@
+// 整體佈局
+.scheduleIntro {
+  display: flex;
+  flex-direction: column;
+  z-index: 0.8;
+  width: 650vw;
+  max-width: 100%;
+  height: 550px;
+  // background-color: grey;
+  // margin-top: 90px;
+  // margin-left: 100px;
+  // margin-right: 40px;
+  position: relative;
+}
+
+// 左上方介紹詞
+.scheduleInfoTxt {
+  // justify-content: flex-start;
+  // z-index: 0.8;
+  // height: 100%;
+  // width: 100%;
+  // display: flex;
+  // flex-direction: column;
+  // text-align: left;
+  // margin-left: 100px;
+  position: absolute;
+  left: 15%;
+  top: 5%;
+}
+
+// 左上方文字設定
+.scheduleInfoTxt h2 {
+  font-size: 2.1rem;
+  line-height: 45px;
+  white-space: nowrap;
+}
+.scheduleInfoTxt h5 {
+  font-size: 1.2rem;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.cheduleInfochat {
+  position: absolute;
+  left: 60%;
+  top: 15%;
+}
+
+.IntroTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Introdowm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// 主視覺圖像
+.chedulePhoto {
+  // /* position: relative;
+  // display: block;
+  // /* max-width: 100%; */
+  // /* position: absolute; */
+
+  // display: block;
+  // margin: auto auto;
+  // background-size: cover;
+  // background-color: hotpink;
+  // z-index: 0.8;
+  position: absolute;
+  top: 35%;
+}
+
+.chedulePhoto .img {
+  // justify-content: center;
+  // align-items: center;
+  // max-width: 50%;
+  // height: auto;
+}
+
+// 下方箭頭與文字
+.arrowtext {
+}
+/* @media screen and (min-width: 576px) {
+  .scheduleIntro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0.8;
+    max-width: 100%;
+    height: 650px;
+    background-color: grey;
+    margin-top: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+  } */
+
+// 中文背景字
+.scheduleIntro .cTxt {
+  position: absolute;
+  left: 65%;
+  top: 78%;
+}
+
+// 下方文字
+
+.aaaaa {
+  text-align: center;
+  width: 100px;
+  height: 10px;
+  // background-color: blue;
+}
+.arrowtextP1 {
+  position: absolute;
+  transform: translateX(-50%);
+  // background-color: blue;
+
+  top: 105%;
+  margin-top: 30px;
+  margin-bottom: 3px;
+  color: #6a5f4b;
+}
+.arrowtextP2 {
+  position: absolute;
+  transform: translateX(-50%);
+  top: 105%;
+  color: #6a5f4b;
+  text-align: center;
+}
+
+.arrowtextImg {
+  position: absolute;
+  transform: translateX(-50%);
+  margin-left: -12px;
+  // background-color: khaki;
+  top: 117%;
+}
+
+// animation: fadeIn;
+// animation-duration: 1.5s;
+// animation-delay: 1s;
+
+#cheduleanimation .ani {
+  opacity: 0;
+  animation: fadeIn 1s ease-in both;
+}
+
+#cheduleanimation .ani:nth-child(2) {
+  animation-delay: 1s;
+}
+#cheduleanimation .ani:nth-child(3) {
+  animation-delay: 2s;
+}
+#cheduleanimation .ani:nth-child(4) {
+  animation-delay: 3s;
+}
+#cheduleanimation .ani:nth-child(5) {
+  animation-delay: 4s;
+}
+#cheduleanimation .ani:nth-child(6) {
+  animation-delay: 5s;
+}
+#cheduleanimation .ani:nth-child(7) {
+  animation-delay: 6s;
+}
+#cheduleanimation .ani:nth-child(8) {
+  animation-delay: 7s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -20%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}

@@ -1,0 +1,95 @@
+//section第一區
+.wrap1 {
+  margin-top: 100px;
+}
+.btnarea {
+  width: 800px;
+  margin: auto;
+}
+
+.protext1 {
+  width: 130px;
+  height: 30px;
+  border: 1px solid #f6bc54;
+  padding: 3px 15px 3px 15px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  color: #f6bc54;
+  text-align: center;
+}
+.select-btn {
+  width: 90px;
+  height: 30px;
+  padding: 3px 15px 3px 15px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.select-btn:hover {
+  background: #efefef;
+}
+.search {
+  width: 180px;
+  height: 30px;
+  border: 1px solid #f6bc54;
+  border-radius: 30px;
+  margin-right: 5px;
+  padding: 3px 10px 3px 10px;
+}
+
+//section第二區
+.wrap2 {
+  justify-content: center;
+  margin: auto;
+}
+
+.categoryArea {
+  //分類
+  overflow-y: scroll;
+  width: 200px;
+  height: 450px;
+  border: 1px solid #f6bc54;
+  border-radius: 30px;
+} //卷軸樣式
+.categoryArea::-webkit-scrollbar {
+  width: 9px;
+}
+.categoryArea::-webkit-scrollbar-button {
+  background: transparent;
+  height: 30px;
+  border-radius: 4px;
+}
+.categoryArea::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+.categoryArea::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #f6bc54;
+}
+.categoryArea::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(246, 189, 84, 0.788);
+}
+.categoryArea::-webkit-scrollbar-track {
+  box-shadow: transparent;
+}
+
+.categoryCard {
+  background: white;
+  margin: auto;
+  width: 170px;
+  border: none !important;
+}
+.accordion > .categoryCard > .categoryHeader {
+  background: none !important;
+  border-bottom: 1px solid #f6bc54 !important;
+  margin: 0 !important;
+}
+
+//分頁區
+.pages {
+  width: 170px;
+  margin: auto;
+  margin-top: 50px;
+}

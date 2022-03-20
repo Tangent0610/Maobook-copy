@@ -1,0 +1,186 @@
+.helplist{
+  width: 880px;
+  margin-left: 165px;
+}
+
+
+.helplisttopbar {
+  display: flex;
+  position: relative;
+}
+
+.listfilter {
+  position: absolute;
+  bottom: 10%;
+  left: 57%;
+}
+
+.listcurrentregion{
+  position: absolute;
+  bottom: 10%;
+  left: 35%;
+  color: #f6bc54;
+  font-size: 22px;
+}
+
+.listregion{
+  color: #6a5f4b;
+  font-weight: bold;
+}
+
+// .listdropdown{
+//   border: 1px solid #f6bc54;
+//   border-radius: 10px;
+//   padding: 5px 15px 5px 15px;
+//   color: #6a5f4b;
+// }
+
+.listpost {
+  position: absolute;
+  bottom: 10%;
+  right: 3%;
+}
+
+.postbutton{
+  border: 1px solid #f6bc54;
+  color: #f6bc54;
+  border-radius: 10px;
+}
+
+.helpcards {
+  display: inline-block;
+  position: relative;
+  margin: 30px 50px;
+}
+
+.helpsinglecard {
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+}
+
+.helpcardtop{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.cardcategoryandtag{
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+.helpuserimage{
+  border-radius: 50%;
+  width:75px;
+  height: 75px;
+  border: 1px #6a5f4b solid;
+}
+
+.cardcategory{
+  margin-bottom: 5px;
+  color: #6a5f4b;
+}
+
+.cardtagname{
+  color: #6a5f4b;
+}
+
+.penimg {
+  margin-left: 10px;
+}
+
+.helpcardbody {
+  border: 2px #f6bc54 solid;
+  border-radius: 30px;
+}
+
+.upperbody{
+  background-color: #f6bc54;
+  border-radius: 30px 30px 0 0;
+}
+
+.cardimage{
+  border-radius: 30px 30px 0 0;
+  width: 210px;
+  height: 210px;
+}
+
+.cardbasicinfo{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  
+}
+
+.cardregion{
+  margin-left: 10px;
+  color: white;
+}
+
+.carddate{
+  color: white;
+}
+
+.lowerdody{
+  height: 100px;
+  text-align: center;
+}
+
+.cardtitle{
+  padding-top: 5px;
+  font-size: 16px;
+  height: 35px;
+  width: 210px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-overflow: ellipsis;
+  overflow:hidden;
+  white-space: nowrap;
+  background-color: #6a5f4b;
+  color: white;
+}
+
+.cardcontent{
+  width: 160px;
+  height: 36px;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 12px;
+
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+
+}
+
+.helpcardfooter{
+  text-align: center;
+  margin-top: 5px;
+  color: #6a5f4b;
+}
+
+.listmorebutton {
+  border-radius: 10px;
+  border: 1px solid #f6bc54;
+  background-color: hsl(39, 90%, 65%);
+  color: white;
+  text-align: center;
+  width: 20%;
+  position: absolute;
+  left: 40%;
+  margin-top: 20px;
+}
+
+.helplistpage{
+  position: absolute;
+  bottom: 0%;
+  left: 48%;
+}

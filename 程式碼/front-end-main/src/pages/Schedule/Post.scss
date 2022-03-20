@@ -1,0 +1,392 @@
+// POST 外框架
+.a {
+  background-size: cover;
+  background-color: #f6bc54;
+}
+// 整體區域
+.schedulePost {
+  width: 100%;
+  height: 500px;
+  margin: auto auto;
+  text-align: center; //格字內元素置中
+}
+
+// 重要的事
+.schedulePostH1 {
+  color: #f6bc54;
+  font-size: 3.5rem;
+  margin-top: 100px;
+  text-align: center;
+}
+
+// 寫下來提醒自己吧
+
+.schedulePostH2 {
+  color: white;
+  font-size: 2rem;
+  padding-top: 5px;
+}
+// 日曆樣式
+.scheduleData {
+  border-radius: 20px;
+  border-color: #f6bc54;
+  border-width: 50px;
+  border: 2px solid white;
+  width: 200px;
+  padding: auto 5px;
+  margin-top: 30px;
+  cursor: pointer;
+
+  &:focus {
+    outline: 2px hsla(79, 60%, 65%, 1) solid;
+  }
+}
+
+// 下方表格區
+.schedulePostInput {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+// 下方表格區第一格
+
+.schedulePostDate {
+  display: flex;
+  width: 175px;
+  height: 250px;
+  border: 2px white solid;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.scheduleIcon6 {
+  justify-content: center;
+  text-align: center;
+  margin: auto auto;
+  width: 25%;
+  height: 25%;
+  transform: rotate(30deg);
+  &:hover {
+    animation: headShake;
+    animation-duration: 1s;
+  }
+}
+
+// 重要按鈕
+.schedulePostClass {
+  // display: inline-block;
+  width: 100px;
+  // height: 100px;
+  // margin-bottom: 10px;
+  // position: relative;
+  // display: inline-block;
+  // margin-right: 12px;
+  text-align: center;
+}
+
+// input 隱藏格
+.schedulePostCircle {
+  z-index: 0.1;
+  height: 10px;
+  width: 10px;
+  display: none;
+}
+
+.schedulePostButton3 {
+  height: 130px;
+  width: 60px;
+  z-index: 1;
+  border: 2px white solid;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.schedulePostButton1 {
+  background-color: #f6bc54;
+  color: white;
+  border: 2px solid white;
+  transition-duration: 0.4s;
+  height: 130px;
+  width: 60px;
+  border: 2px white solid;
+  border-radius: 20px 20px 0px 0px;
+  z-index: 1;
+  &:hover {
+    background-color: white;
+    color: #f6bc54;
+  }
+  &:focus {
+    background-color: white;
+    color: #f6bc54;
+  }
+  &.active {
+    background-color: white;
+    color: #f6bc54;
+  }
+}
+.schedulePostButtontext {
+  font-size: 20px;
+  writing-mode: vertical-lr;
+  text-align: center;
+  margin-top: 37px;
+}
+
+.schedulePostButton02 {
+  // -webkit-appearance: none;
+  z-index: 0.1;
+  display: none;
+}
+.schedulePostButton2 {
+  background-color: #f6bc54;
+  color: white;
+  border: 2px solid white;
+  transition-duration: 0.4s;
+  height: 130px;
+  width: 60px;
+  border-radius: 0px 0px 20px 20px;
+  margin-top: -16px;
+
+  z-index: 1;
+  &:hover {
+    background-color: white;
+    color: #f6bc54;
+  }
+  &.active {
+    background-color: white;
+    color: #f6bc54;
+  }
+}
+
+.schedulePostButton2 label:focus {
+  background-color: white;
+  color: #f6bc54;
+}
+
+// 標籤
+.schedulePostTag {
+  // display: inline-block;
+  width: 175px;
+  height: 250px;
+  // border: 2px #f6bc54 solid;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+// TAG 上方
+.schedulePostTag1 {
+  // display: inline-block;
+  width: 175px;
+  height: 125px;
+  border: 2px white solid;
+  border-radius: 20px;
+  display: inline-block;
+  padding-top: 8px;
+}
+
+.takeMaoOut {
+  color: #f6bc54;
+  // background-color: white;
+  border: 2px solid #f6bc54;
+  transition-duration: 0.4s;
+  border-radius: 20px;
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+  // &:hover .dropbtn
+  //   background-color: hsla(79, 60%, 65%, 1);
+  // &::content {
+  //   background-color: hsla(79, 60%, 65%, 1);
+}
+
+// btn btn-secondary btn-sm dropdown-toggle
+
+.scheduleInput {
+  width: 60%;
+  padding: auto auto;
+  margin: 3px auto;
+  box-sizing: unset;
+  border: none;
+  color: white;
+  border-bottom: 2px solid white;
+  background-color: #f6bc54;
+  &:focus {
+    outline: 2px hsla(79, 60%, 65%, 1) solid;
+    border-radius: 10px;
+  }
+}
+.schedulePostLabel {
+  font-size: 20px;
+  color: white;
+}
+
+// TAG 下方
+.schedulePostTag2 {
+  width: 175px;
+  height: 125px;
+  border: 2px white solid;
+  border-radius: 20px;
+  margin-top: -2px;
+  padding-top: 5px;
+}
+.scheduleButIcon1 {
+  margin: 3px 3px 1px 1px;
+  font-size: 15px;
+  width: 60px;
+  background-color: #97bbbd;
+  border-radius: 10px;
+  border: 2px #97bbbd solid;
+  color: white;
+  opacity: 0.5;
+  z-index: 1;
+  &:hover {
+    background-color: #97bbbd;
+    color: white;
+    opacity: 1;
+    animation: headShake;
+    animation-duration: 1s;
+  }
+  &:focus {
+    background-color: #97bbbd;
+    color: white;
+    opacity: 1;
+  }
+  &.active {
+    background-color: #97bbbd;
+    color: white;
+    opacity: 1;
+  }
+}
+
+.scheduleButIcon2 {
+  margin: 3px 3px 1px 1px;
+  font-size: 15px;
+  width: 60px;
+  background-color: #b29096;
+  border-radius: 10px;
+  border: 2px #b29096 solid;
+  color: white;
+  opacity: 0.5;
+  &:hover {
+    background-color: #b29096;
+    color: white;
+    opacity: 1;
+    animation: headShake;
+    animation-duration: 1s;
+  }
+  &:focus {
+    background-color: #b29096;
+    color: white;
+    opacity: 1;
+  }
+  &.active {
+    background-color: #b29096;
+    color: white;
+    opacity: 1;
+  }
+}
+.scheduleButIcon3 {
+  margin: 3px 3px 1px 1px;
+  font-size: 15px;
+  width: 60px;
+  background-color: #6a5f4b;
+  border-radius: 10px;
+  border: 2px #6a5f4b solid;
+  color: white;
+  opacity: 0.5;
+  &:hover {
+    background-color: #6a5f4b;
+    color: white;
+    opacity: 1;
+    animation: headShake;
+    animation-duration: 1s;
+  }
+  &:focus {
+    background-color: #6a5f4b;
+    color: white;
+    opacity: 1;
+  }
+  &.active {
+    background-color: #6a5f4b;
+    color: white;
+    opacity: 1;
+  }
+}
+
+.scheduleButIcon4 {
+  margin: 3px 3px 1px 1px;
+  font-size: 15px;
+  width: 60px;
+  background-color: #becdbe;
+  border-radius: 10px;
+  border: 2px #becdbe solid;
+  color: white;
+  opacity: 0.5;
+  z-index: 1;
+  &:hover {
+    background-color: #becdbe;
+    color: white;
+    opacity: 1;
+    animation: headShake;
+    animation-duration: 1s;
+  }
+  &:focus {
+    background-color: #becdbe;
+    color: white;
+    opacity: 1;
+  }
+  &.active {
+    background-color: #becdbe;
+    color: white;
+    opacity: 1;
+  }
+}
+
+// 文字輸入區
+.postSaySomethingDiv {
+  width: 350px;
+  height: 250px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.postSaySomething {
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+
+.scheduleTextarea {
+  width: 350px;
+  height: 200px;
+  resize: none;
+  padding: 18px 20px;
+  box-sizing: border-box;
+  border: 2px white solid;
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 18px;
+  color: white;
+  justify-content: flex-end;
+  &:focus {
+    outline: 3px hsla(79, 60%, 65%, 1) solid;
+  }
+}
+
+.scheduleSummitButton {
+  margin-top: 5px;
+  margin-left: 15px;
+  background-color: white;
+  color: #f6bc54;
+  border: 2px solid #f6bc54;
+  transition-duration: 0.4s;
+  height: 45px;
+  width: 350px;
+  border-radius: 20px;
+  font-size: 18px;
+  justify-content: flex-end;
+  &:hover {
+    background-color: #f6bc54;
+    color: white;
+    border: 2px solid white;
+  }
+}

@@ -1,0 +1,89 @@
+// 顏色變數
+$primary: #f6bc54;
+$secondary: #6a5f4b;
+
+// 編輯大頭貼
+.edit-avatar {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: 0.4s;
+  &:hover {
+    opacity: 1;
+  }
+  > .edit-avatar-icons {
+    margin: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+  }
+}
+// 錯誤訊息
+.info-card {
+  .errMsg {
+    padding: 0 0.3rem 0.5rem 0.3rem;
+    color: rgb(175, 2, 2);
+    font-size: 0.5rem;
+    font-weight: 550;
+  }
+  input::placeholder {
+    font-size: 0.9rem;
+    color: #c4c4c4;
+  }
+  .required-icon {
+    padding: 7px 5px 0 0;
+    color: rgb(175, 2, 2);
+  }
+}
+// 性別 radio 區塊
+.edit-gender {
+  input {
+    display: none;
+  }
+  label {
+    padding: 1px 5px;
+    margin-bottom: 0;
+    border: 1px solid $primary;
+    border-radius: 0.3rem;
+    color: $primary;
+  }
+  .active-label {
+    background: $primary;
+    color: white;
+  }
+}
+
+// 儲存按鈕
+.edit-icon {
+  font-size: 1.6rem;
+}
+
+// 改密碼 Modal 樣式
+.changePw-modal {
+  .modal-header {
+    border-bottom: none;
+  }
+  .modal-footer {
+    border-top: none;
+  }
+  .form-group {
+    margin-bottom: 0.5rem;
+  }
+  .form-control {
+    border-radius: 1rem;
+    height: 2rem;
+    align-self: center;
+    text-align: center;
+  }
+  .errMsg {
+    padding: 0.1rem 0.3rem 0 0.3rem;
+    color: rgb(175, 2, 2);
+    font-size: 0.5rem;
+    font-weight: 550;
+    text-align: center;
+  }
+}

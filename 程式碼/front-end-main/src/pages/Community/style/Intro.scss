@@ -1,0 +1,45 @@
+@import '../../Community.scss';
+
+
+// 連結滑鼠樣式
+.pointer {
+  cursor: pointer;
+}
+.titleBold{
+  display: none;
+}
+
+.cover{
+  img{
+    max-width: 85%;
+  }
+}
+
+
+
+//\\ [[[{ R }]]] //\\
+//\\ [[[{ W }]]] //\\
+//\\ [[[{ D }]]] //\\
+// lg
+@media (min-width: 992px) {
+  // 毛孩社群 圖
+// 頁面高度
+  $page-margin: calc($page-height * 0.24);
+  .cover {
+    height: auto;
+    max-width: 80vw;
+    margin-top: $page-margin;
+    
+  }
+}
+// RWD
+@media (max-width:767px ) {
+  .titleBold{
+    display: block;
+  }
+  
+  .cover img {
+    display: none;
+    
+}
+}

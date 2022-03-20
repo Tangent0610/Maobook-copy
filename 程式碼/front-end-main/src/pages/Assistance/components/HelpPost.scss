@@ -1,0 +1,401 @@
+.helppost {
+  width: 100%;
+  height: 100%;
+  margin: auto auto;
+  text-align: center;
+}
+
+.helpposttitle1 {
+  color: #f6bc54;
+  font-size: 3.5rem;
+  margin-top: -20px;
+  text-align: center;
+}
+
+.helpposttitle2 {
+  margin-top: 5px;
+  padding-top: 10px;
+  color: white;
+  font-size: 2rem;
+}
+
+.helppostinput {
+  margin-top: 50px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.cameraicon {
+  justify-content: center;
+  text-align: center;
+  margin: auto auto;
+  width: 25%;
+  height: 25%;
+}
+
+.helppostimage {
+  width: 175px;
+  height: 250px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  .img-uploader {
+    background: url("../img/camera.svg") center center no-repeat;
+    // background-size: contain;
+    display: flex;
+    width: 175px;
+    height: 250px;
+    border: 2px white solid;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    overflow: hidden;
+   ::-webkit-scrollbar{
+       overflow: hidden;
+   }
+   .previewer{
+    height: 100%;
+    width: 100%;
+    // position: absolute;
+    left: 0;
+    top: 0;
+    object-fit:cover;
+}
+}
+}
+
+.helpdropdownregion {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+#helpdropdownregion {
+  color: white;
+}
+
+.helppostdate {
+  &::-webkit-datetime-edit,
+  ::-webkit-calendar-picker-indicator,
+  ::-webkit-datetime-edit-fields-wrapper,
+  ::-webkit-inner-spin-button {
+    color: white;
+    background-color: #f6bc54;
+  }
+}
+
+.helpchoosedate {
+  color: white;
+  background-color: #f6bc54;
+  width: 160px;
+  padding-left: 10px;
+  padding-right: 5px;
+  border: 1px white solid;
+  border-radius: 10px;
+}
+
+.postchooseregion{
+  color: white;
+  background-color: #f6bc54;
+  border: 2px solid white;
+  transition-duration: 0.4s;
+  border-radius: 20px;
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.helppostcategory {
+  width: 100px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.categoryPostButton1{
+  background-color: #f6bc54;
+  color: white;
+  border: 2px solid white;
+  transition-duration: 0.4s;
+  height: 130px;
+  width: 60px;
+  border: 2px white solid;
+  border-radius: 20px 20px 0px 0px;
+  z-index: 1;
+  &:hover {
+    background-color: white;
+    color: #f6bc54;
+  }
+  &:focus {
+    background-color: white;
+    color: #f6bc54;
+  }
+  &.active {
+    background-color: white;
+    color: #f6bc54;
+  }
+}
+
+.helpPostCircle{
+  z-index: 0.1;
+  height: 10px;
+  width: 10px;
+  display: none;
+}
+
+.helpPostButtontext{
+  font-size: 20px;
+  writing-mode: vertical-lr;
+  text-align: center;
+  margin-top: 37px;
+}
+
+.categoryPostButton2{
+  background-color: #f6bc54;
+  color: white;
+  border: 2px solid white;
+  transition-duration: 0.4s;
+  height: 130px;
+  width: 60px;
+  border-radius: 0px 0px 20px 20px;
+  margin-top: -16px;
+
+  z-index: 1;
+  &:hover {
+    background-color: white;
+    color: #f6bc54;
+  }
+  &.active {
+    background-color: white;
+    color: #f6bc54;
+  }
+}
+
+// .buttondog {
+//   background-color: #f6bc54;
+//   color: white;
+//   border: 2px solid white;
+//   transition-duration: 0.4s;
+//   height: 125px;
+//   width: 60px;
+//   border: 2px white solid;
+//   border-radius: 20px 20px 0px 0px;
+//   font-size: 20px;
+// }
+// .buttondog:hover {
+//   background-color: white;
+//   color: #f6bc54;
+// }
+// .buttondog:focus {
+//   background-color: white;
+//   color: #f6bc54;
+// }
+// .buttoncat {
+//   background-color: #f6bc54;
+//   color: white;
+//   border: 2px solid white;
+//   transition-duration: 0.4s;
+//   height: 125px;
+//   width: 60px;
+//   border-radius: 0px 0px 20px 20px;
+//   font-size: 20px;
+// }
+// .buttoncat:hover {
+//   background-color: white;
+//   color: #f6bc54;
+// }
+// .buttoncat:focus {
+//   background-color: white;
+//   color: #f6bc54;
+// }
+
+.helppostinfo {
+  width: 175px;
+  height: 250px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.helppostdate {
+  width: 175px;
+  height: 125px;
+  border: 2px white solid;
+  border-radius: 20px;
+  display: inline-block;
+  padding-top: 8px;
+}
+
+.helppostprice {
+  width: 60%;
+  padding: auto auto;
+  margin: 3px auto;
+  box-sizing: unset;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: #f6bc54;
+  color: white;
+  margin-left: 5px;
+  padding-left: 5px;
+}
+
+.helppostpricetitle {
+  font-size: 16px;
+  color: white;
+}
+
+.helpposttag {
+  width: 175px;
+  height: 125px;
+  border: 2px white solid;
+  border-radius: 20px;
+  margin-top: 3px;
+  padding-top: 10px;
+}
+
+.helptag1,
+.helptag2,
+.helptag3,
+.helptag4,
+.helptag5,
+.helptag6 {
+  margin: 5px 5px 3px 3px;
+  font-size: 15px;
+  width: 60px;
+  background-color: #f6bc54;
+  border-radius: 10px;
+  border: 2px white solid;
+  color: white;
+  transition-duration: 0.4s;
+  &:hover {
+    background-color: white;
+    color: #f6bc54;
+    opacity: 1;
+    animation: headShake;
+    animation-duration: 1s;
+  }
+  &:focus {
+    background-color: white;
+    color: #f6bc54;
+    opacity: 1;
+  }
+  &.active {
+    background-color: white;
+    color: #f6bc54;
+    opacity: 1;
+  }
+}
+
+
+
+// .helptag1:hover {
+//   background-color: white;
+//   color: #f6bc54;
+// }
+// .helptag2:hover {
+//   background-color: white;
+//   color: #f6bc54;
+// }
+// .helptag3:hover {
+//   background-color: white;
+//   color: #f6bc54;
+// }
+// .helptag4:hover {
+//   background-color: white;
+//   color: #f6bc54;
+// }
+// .helptag5:hover {
+//   background-color: white;
+//   color: #f6bc54;
+// }
+// .helptag6:hover {
+//   background-color: white;
+//   color: #f6bc54;
+// }
+// .helptag1:focus {
+//   background-color: white;
+//   color: #f6bc54;
+// }
+// .helptag2:focus {
+//   background-color: white;
+//   color: #f6bc54;
+// }
+// .helptag3:focus {
+//   background-color: white;
+//   color: #f6bc54;
+// }
+// .helptag4:focus {
+//   background-color: white;
+//   color: #f6bc54;
+// }
+// .helptag5:focus {
+//   background-color: white;
+//   color: #f6bc54;
+// }
+// .helptag6:focus {
+//   background-color: white;
+//   color: #f6bc54;
+// }
+
+.helpposttext {
+  width: 350px;
+  height: 250px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.helpposttitleandcontent {
+  width: 100%;
+  height: 210px;
+  display: flex;
+}
+
+.givertitle {
+  width: 350px;
+  height: 60px;
+  padding: 18px 20px;
+  box-sizing: border-box;
+  border: 2px white solid;
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 16px;
+  color: white;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.helptextarea {
+  width: 350px;
+  height: 150px;
+  padding: 18px 20px;
+  box-sizing: border-box;
+  border: 2px white solid;
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 16px;
+  color: white;
+  justify-content: flex-end;
+}
+
+.helpSummitButton {
+  margin-top: 10px;
+  background-color: white;
+  color: #f6bc54;
+  border: 2px solid #f6bc54;
+  transition-duration: 0.4s;
+  height: 35px;
+  width: 350px;
+  border-radius: 20px;
+  font-size: 18px;
+  justify-content: flex-end;
+}
+
+.helpSummitButton:hover {
+  background-color: #f6bc54;
+  color: white;
+  border: 2px solid white;
+}
+
+.helppostunlogin{
+  height: 250px;
+  margin-top: 50px;
+}

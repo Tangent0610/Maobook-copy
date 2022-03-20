@@ -1,0 +1,66 @@
+.home-start {
+  // height: 640px;
+  width: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  div {
+    padding: 1rem;
+    margin: auto;
+    overflow: hidden;
+  }
+  p {
+    font-size: 18px;
+    letter-spacing: 0.3rem;
+    line-height: 2;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    color: #6a5f4b;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+
+  }
+
+  // 上半部內容 腳印
+  .content-up {
+    .paw1 {
+      transform: translate(20px) rotate(25deg);
+    }
+    .paw2 {
+      transform: translate(-20px) rotate(-25deg);
+    }
+    .paw3 {
+      transform: translate(20px) rotate(25deg);
+    }
+    .paw4 {
+      transform: translate(-20px) rotate(-10deg);
+    }
+  }
+}
+// 下半部內容
+.content-down {
+  .paw-txt1 p {
+    padding-bottom: 0;
+  }
+  img {
+    max-width: 400px;
+    height: auto;
+  }
+  img.giftbox {
+    height: 200px;
+    margin-left: 90px;
+    margin-top: 100px;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+  }
+  .giftbox:hover {
+    animation: headShake;
+    animation-duration: 1s;
+  }
+}

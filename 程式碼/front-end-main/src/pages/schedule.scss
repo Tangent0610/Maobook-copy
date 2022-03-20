@@ -1,0 +1,64 @@
+.Schedulecontainer {
+  display: flex;
+  // justify-content: center;
+  // align-items: center;
+  z-index: 0.1;
+  flex: 1;
+}
+
+.iconPost {
+  position: fixed;
+  width: 40 px;
+  height: 40 px;
+  top: 100px;
+  left: 85%;
+  z-index: 1;
+}
+
+.etext {
+  position: fixed;
+  width: 32.73 px;
+  height: 32.73 px;
+  // top: 99.11px;
+  left: 10%;
+  z-index: 1;
+}
+
+.Introdiv {
+  // width: 70vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.Calendardiv {
+  margin-top: 150px;
+  // width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.Notesdiv {
+  margin-top: 20px;
+  // width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.Postdiv {
+  margin-top: 40px;
+  // position: fixed;
+  // width: 100vw;
+  // justify-content: center;
+  // align-items: center;
+  background-size: auto auto;
+  background-color: #f6bc54;
+  text-align: center; //格字內元素置中
+}
+
+// .a {
+//   width: 100vw;
+//   height: 690px;
+//   background-size: cover;
+//   background-color: aqua;
+//   z-index: 0.1;
+//   display: flexbox;
+// }

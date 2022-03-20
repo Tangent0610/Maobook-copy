@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  button {
+    background: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .MaoStore,
+  .paw,
+  .text1,
+  .playarea {
+    display: none;
+  }
+  .text2 {
+    font-size: 25px;
+    margin: 22px 0 0 52px;
+    /* font-weight: 700; */
+  }
+  .text3 {
+    margin: 22px 0 0 52px;
+    font-size: 14px;
+  }
+  .person {
+    width: 100%;
+    display: block;
+    margin: 22px 0 0 112px;
+    width: 217.63px;
+  }
+}
+// intro end

@@ -1,0 +1,62 @@
+
+// {{P-2}}
+// [[[ Tools.js ==> 浮游小工具 ]]] //
+.toolbox {
+  min-height: 9rem;
+  width: 4rem;
+  position: fixed;
+  top: 10.2%;
+  // 工具離側邊的距離
+  left: 86%;
+  // right: 3%;
+  z-index: 999;
+  transition: .8s;
+  a {
+    cursor:pointer;
+    font-size: 0.9em;
+    height: auto;
+    width: 100%;
+    transition: .8s;
+    img {
+      height: auto;
+      width: 2.5rem;
+      margin: 20% 0 10% 0;
+    transition: .8s;
+    }
+    // 通知訊息
+   .bouble-counter{
+     width: 1.2rem;
+     height: 1.2rem;
+    //  color: #ddd;
+     text-decoration: none;
+     background: url("../../images/icon-bouble-counter.svg") no-repeat;
+     background-size: contain;
+     position: absolute;
+     top: -0.2rem;
+     right: -0.05rem;
+   }
+  }
+}
+
+// 查看貼文按鈕
+.btn-viewer{
+  transition: .6s;
+  &:hover b, &:hover a{
+    color: cadetblue;
+  }
+  &:hover img{
+    background-blend-mode: screen;
+    filter: sepia(80%);
+  }
+}
+// 撰寫貼文按鈕
+.btn-poster{
+  transition: .6s;
+  &:hover b{
+    color: cadetblue;
+  }
+  &:hover img{
+    background-blend-mode: screen;
+    filter: sepia(80%);
+  }
+}

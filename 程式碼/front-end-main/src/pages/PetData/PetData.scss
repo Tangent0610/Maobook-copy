@@ -1,0 +1,209 @@
+// 顏色變數
+$primary: #f6bc54;
+$secondary: #6a5f4b;
+
+// PetData 頁面
+.pet-data {
+  padding: 3rem 7rem;
+  .nav-tabs {
+    // border-bottom: none;
+    .nav-link:hover {
+      border-bottom: 1px solid white;
+    }
+  }
+  .pet-data-card {
+    padding: 2rem 3.5rem;
+    // border: 1px solid #ddd;
+    border-radius: 5px;
+    color: $secondary;
+    font-weight: 550;
+    > div {
+      border: 2px solid $primary;
+      border-radius: 20px;
+      position: relative;
+    }
+    .pet-data-avatar {
+      margin: 1rem auto;
+      max-width: 150px;
+      border-radius: 50%;
+    }
+    .pet-height-chart,
+    .pet-weight-chart {
+      margin: 1rem auto 2rem;
+      .chart {
+        height: 150px;
+        margin: 0.5rem 1rem;
+        padding: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        position: relative;
+        .data-length {
+          position: absolute;
+          top: 2px;
+          left: 4px;
+          font-size: 0.5rem;
+          font-weight: 400;
+          color: #ccc;
+        }
+        .one-data {
+          position: absolute;
+          top: 20px;
+          left: 4px;
+          font-size: 0.5rem;
+          font-weight: 400;
+          color: $primary;
+        }
+        .no-data-word {
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+          color: $primary;
+        }
+      }
+    }
+    .edit-icon,
+    .join-icon {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      width: 40px;
+      height: 40px;
+      background: $primary;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      font-size: 1.3rem;
+      transition: 0.4s;
+    }
+    .join-icon:hover {
+      background-color: $secondary;
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .pet-data {
+    padding: 3rem 3rem 1rem 3rem;
+    .pet-height-chart,
+    .pet-weight-chart {
+      padding: 0 2rem;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .pet-data {
+    padding: 0;
+    .pet-data-card {
+      padding: 2rem 1.5rem;
+    }
+    .pet-height-chart,
+    .pet-weight-chart {
+      padding: 0;
+    }
+  }
+}
+
+// AddPetData 頁面
+.pet-data-edit {
+  .btn {
+    margin: 0 2px;
+    padding: 0 0.5rem;
+    border: 1px solid $primary;
+    color: $primary;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    &:hover {
+      background: $primary;
+      color: white;
+    }
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+  .form-control {
+    margin: 0 0.6rem;
+    padding: 3px 12px;
+    height: 1.8rem;
+    font-size: 0.9rem;
+  }
+}
+.pet-data-select {
+  margin-bottom: 1rem;
+}
+
+.pet-data-table {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+  .form-control {
+    margin: 0;
+  }
+  .sorting-icon {
+    margin: 0 1px;
+    color: grey;
+  }
+  > thead {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    > tr {
+      height: 1rem;
+      > th {
+        padding: 0.3rem;
+      }
+      > th:first-child {
+        width: 145px;
+      }
+      > th:last-child {
+        width: 178px;
+      }
+    }
+  }
+  > tbody {
+    width: 100%;
+    height: 245px;
+    overflow-y: auto;
+    display: block;
+    > tr {
+      display: table;
+      width: 100%;
+      height: 1rem;
+      > td {
+        padding: 0.3rem;
+      }
+    }
+  }
+  .date-form {
+    .form-control {
+      width: 90%;
+      margin: auto;
+    }
+  }
+  .errMsg {
+    padding: 0.3rem 0.3rem 0 0.3rem;
+  }
+}
+.detail-chart {
+  padding: 2.2rem 0;
+  height: 400px;
+}
+@media only screen and (max-width: 768px) {
+  .pet-data-select {
+    margin-top: 0.5rem;
+  }
+  .pet-data-table {
+    > thead {
+      > tr {
+        > th:first-child {
+          width: 117px;
+        }
+        > th:last-child {
+          width: 129px;
+        }
+      }
+    }
+  }
+}

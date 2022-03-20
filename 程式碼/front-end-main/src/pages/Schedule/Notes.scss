@@ -1,0 +1,227 @@
+// 外層框架
+.scheduleNotes {
+  margin: auto;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+// 重要記事
+.scheduleNotesStar {
+  align-items: center;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.scheduleNotesStarTitle {
+  margin: 2px 50px 0px 50px;
+  display: flex;
+  position: relative;
+}
+
+.scheduleNotesStarH1 {
+  font-size: 1.5rem;
+  padding-left: 15px;
+  padding-top: 5px;
+  color: #f6bc54;
+}
+
+.notesStarImg {
+}
+
+.scheduleNotesStarbox {
+  border: 2px #f6bc54 solid;
+  padding: 30px 30px 30px 30px;
+  margin: 0px 40px 40px 40px;
+  border-radius: 20px;
+}
+
+// 當日記事
+.scheduleNotesToday {
+}
+
+.scheduleNotesTodayTitle {
+  margin: 2px 50px 50px 50px;
+  font-size: 1.5rem;
+  color: #f6bc54;
+  display: inline;
+}
+
+.scheduleNotesTodaybox {
+  border: 2px #f6bc54 solid;
+  padding: 30px 30px 30px 30px;
+  margin: 2px 40px 40px 40px;
+  border-radius: 20px;
+}
+
+// 事件
+.asd {
+  // width: 800px;
+  display: flex;
+  // flex-direction: column;
+}
+
+.scheduleEvents {
+  // display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  // position: relative;
+}
+.scheduleEvents1 {
+  width: 30px;
+  height: 30px;
+  padding: 3px 3px 3px 3px;
+}
+// .events1Img {
+//   display: block;
+//   margin: auto auto;
+// }
+
+.scheduleEventDay {
+  margin: auto auto;
+  color: #6a5f4b;
+  font-size: 20px;
+}
+
+.scheduleEvents2 {
+  width: 30px;
+  height: 30px;
+  padding: 3px 3px 3px 3px;
+}
+.scheduleEvents2Img {
+  display: block;
+  margin: auto auto;
+}
+.scheduleEvents3 {
+  padding: 3px 3px 3px 3px;
+}
+.scheduleEvents4 {
+  padding: 3px 5px 3px 5px;
+  display: flex;
+}
+
+.bbb {
+  height: 10px;
+  padding-right: 50px;
+
+  // padding: 3px 3px 3px 3px;
+  // padding: auto;
+  // margin: auto;
+  // font-size: 16px;
+  // justify-content: flex-start;
+  // position: absolute;
+  // z-index: 5;
+  // text-align: center;
+  // color: red;
+}
+
+.scheduleEvents4tags {
+  padding: 1px 3px 1px 3px;
+  // width: 100px;
+  position: absolute;
+  // display: flex;
+
+  justify-content: flex-start;
+  // left: 50%;
+  // transform: translateX(-50%);
+  // width: 100%;
+  // height: 100%;
+  z-index: 3;
+}
+
+.scheduleEvents4tagsText {
+  padding: 1px 5px 1px 5px;
+  margin: 1px 5px 1px 5px;
+  font-size: 16px;
+  background-color: sandybrown;
+  border-radius: 10px;
+
+  // width: 100%;
+  justify-content: flex-start;
+  position: absolute;
+  // left: 50%;
+  // transform: translateX(-50%);
+  z-index: 5;
+  text-align: center;
+  color: white;
+}
+
+// TAG背景色，1號變數用
+.scheduleEvents9tagsText {
+  padding: 1px 5px 1px 5px;
+  margin: 1px 5px 1px 5px;
+  font-size: 16px;
+  background-color: #97bbbd;
+  border-radius: 10px;
+  justify-content: flex-start;
+  position: absolute;
+  z-index: 5;
+  text-align: center;
+  color: white;
+}
+
+// TAG背景色，2號變數用
+.scheduleEvents10tagsText {
+  padding: 1px 5px 1px 5px;
+  margin: 1px 5px 1px 5px;
+  font-size: 16px;
+  background-color: #b39096;
+  border-radius: 10px;
+  justify-content: flex-start;
+  position: absolute;
+  z-index: 5;
+  text-align: center;
+  color: white;
+}
+
+// TAG背景色，3號變數用
+.scheduleEvents11tagsText {
+  padding: 1px 5px 1px 5px;
+  margin: 1px 5px 1px 5px;
+  font-size: 16px;
+  background-color: #a09bbd;
+  border-radius: 10px;
+  justify-content: flex-start;
+  position: absolute;
+  z-index: 5;
+  text-align: center;
+  color: white;
+}
+
+// TAG背景色，4號變數用
+.scheduleEvents12tagsText {
+  padding: 1px 5px 1px 5px;
+  margin: 1px 5px 1px 5px;
+  font-size: 16px;
+  background-color: #becdbe;
+  border-radius: 10px;
+  justify-content: flex-start;
+  position: absolute;
+  z-index: 5;
+  text-align: center;
+  color: white;
+}
+
+.scheduleEvents5 {
+  padding: 3px 5px 3px 5px;
+  margin: 3px 5px 3px 5px;
+  color: #6a5f4b;
+  font-size: 16px;
+}
+.aaaaaa {
+  width: 50px;
+  height: 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+.restTime {
+  padding: 5px 10px 5px 10px;
+  margin: 1px 5px 1px 5px;
+  font-size: 16px;
+  background-color: sandybrown;
+  color: white;
+  border-radius: 10px;
+}

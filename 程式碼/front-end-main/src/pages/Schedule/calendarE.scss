@@ -1,0 +1,50 @@
+// 月曆大標年份與月份
+.thisYearE {
+  color: #f6bc54;
+  font-size: 40px;
+  font-weight: 650;
+}
+
+// 每星期的標頭
+.weekendE {
+  color: #6a5f4b;
+  font-size: 20px;
+  opacity: 0.4;
+}
+
+// 行事曆的日期
+.dayE {
+  color: #6a5f4b;
+  font-size: 20px;
+  // margin: 5px;
+}
+
+// 行事曆中間的水平線
+.calenderHrE {
+  border: #6a5f4b 1px solid;
+}
+
+// 行事曆的整體間距
+.tdsizeE {
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  width: 100px;
+  height: 20px;
+}
+
+// 行事曆日期的整體長寬
+.trSizeE {
+  width: 25px;
+  height: 40px;
+
+  &:hover {
+    animation: headShake;
+    animation-duration: 1s;
+  }
+}
+
+.calendarE {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}

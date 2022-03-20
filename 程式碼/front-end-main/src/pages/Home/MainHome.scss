@@ -1,0 +1,120 @@
+// 顏色變數
+$primary: #f6bc54;
+$secondary: #6a5f4b;
+
+.home1 {
+  padding-top: 100px;
+  text-align: left;
+  // 圖片 img-fluid
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  // 左側內容
+  .content-left {
+    div {
+      padding: 1rem;
+      margin: 0;
+    }
+    h3, p {
+      padding: 1rem;
+      margin: 0;
+      letter-spacing: .2rem;
+      line-height: 2;
+      color: $primary;
+    }
+    // 右側內容
+    .content-right {
+      padding: 1rem;
+    }
+  }
+}
+
+// 背景腳印
+.bg-paw {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  overflow: hidden;
+  z-index: -1;
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 50px;
+    transform: rotate(25deg);
+  }
+}
+
+// 登入註冊按鈕
+.login-signup-section {
+  padding: 3rem;
+  text-align: center;
+  .btn {
+    height: auto;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+  }
+  // 登入按鈕
+  .home-login-btn {
+    color: white;
+    background: $primary;
+  }
+  .home-login-btn:hover {
+    color: $primary;
+    background: #6a5f4b;
+  }
+  // 註冊按鈕
+  .home-signup-btn {
+    color: $primary;
+    background: white;
+    transition: 0.4s;
+  }
+  .home-signup-btn:hover {
+    color: $primary;
+    background: #6a5f4b;
+  }
+}
+
+// RWD for pad (992px)
+@media only screen and (max-width: 992px) {
+  .content-right {
+    img.home-logo {
+      display: none;
+    }
+  }
+}
+
+// RWD for 手機版 mobile (768px)
+@media only screen and (max-width: 768px) {
+  .home1 {
+    padding-top: 50px;
+    h3, p {
+      text-align: center;
+    }
+  }
+  //  背景灰色大腳印
+  .bg-paw {
+    display: none;
+  }
+
+  // 登入註冊按鈕
+  .login-signup-section {
+    .btn {
+      flex-direction: column;
+      margin: 0.5rem;
+    }
+  }
+  // 右側內容 大Logo
+  .content-right {
+    img.home-logo {
+      display: none;
+      max-width: 200px;
+      height: auto;
+    }
+  }
+}

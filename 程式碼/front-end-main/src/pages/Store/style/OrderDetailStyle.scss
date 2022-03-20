@@ -1,0 +1,91 @@
+.orderbgAREA {
+  position: relative;
+  height: 350px;
+}
+.MaoStore3 {
+  position: fixed;
+  left: 10%;
+}
+.prolistBG {
+  position: absolute;
+  right: 23%;
+  top: 10%;
+}
+.orderdetailArea {
+  margin: auto;
+  width: 705px;
+  height: auto;
+  border: 1px solid#fcb736;
+  border-radius: 10px;
+}
+
+.calculate {
+  color: #6a5f4b;
+  font-size: 1.2rem;
+}
+
+.finaltotal {
+  padding: 5px 30px;
+  display: inline-block;
+
+  height: auto;
+  border: 2px solid#fcb736;
+  border-radius: 30px;
+  font-size: 1.4rem;
+  color: #fcb736;
+}
+.order-arrow {
+  position: relative;
+  margin: 40px 0 20px 0;
+  top: 50%;
+  left: 49.5%;
+}
+
+.bbtn {
+  .goBackBtn {
+    padding: 5px 30px;
+    height: auto;
+    font-weight: 700;
+    font-size: 1.6rem;
+    border-radius: 30px;
+    color: #ffff;
+  }
+  .checkoutBtn {
+    padding: 5px 30px;
+    height: auto;
+    font-weight: 700;
+    font-size: 1.6rem;
+    border-radius: 30px;
+    color: #ffff;
+  }
+}
+
+.maildetail {
+  color: #6a5f4b;
+  font-size: 1.2rem;
+  width: 90%;
+  margin: 30px auto 0 30px;
+  .errMsg {
+    font-size: 12px;
+    color: red;
+    display: flex;
+    justify-content: end;
+  }
+  
+}
+.maillabel {
+  width: 150px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  p {
+    margin: 0;
+  }
+}
+.line2 {
+  border-top: 1px solid #fcb736;
+  padding: 10px 0 10px 0;
+  .form-control {
+    border-radius: 3rem;
+  }
+}

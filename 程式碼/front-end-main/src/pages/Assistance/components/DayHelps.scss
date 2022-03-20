@@ -1,0 +1,150 @@
+.dayhelps {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 165px;
+}
+
+.maintitle {
+  left: 0%;
+  color: #f6bc54;
+  font-size: large;
+}
+
+.mainframe {
+  border: 2px #f6bc54 solid;
+  border-radius: 10px;
+  width: 880px;
+  height: 350px;
+  position: relative;
+}
+
+.bars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.nodayhelp{
+  color: white;
+  background-color: #f6bc54;
+  border: 1px #f6bc54 solid;
+  width: 500px;
+  border-radius: 30px;
+position: absolute;  
+left: 180px;
+margin-top: 50px;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.headdate {
+  width: 50px;
+  color: #6a5f4b;
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+.datadisplay {
+  display: flex;
+  border: 1px #f6bc54 solid;
+  width: 650px;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  margin-left: 25px;
+  margin-right: 10px;
+}
+
+.region {
+  border: 1px solid #f6bc54;
+  background-color: #f6bc54;
+  color: white;
+  max-width: 15%;
+  margin: 12px 2px;
+  padding: 3px;
+  border-radius: 10px;  
+  font-size: 15px;
+}
+
+.category,
+.tags {
+  border: 1px solid #6a5f4b;
+  background-color: #6a5f4b;
+  color: white;
+  max-width: 10%;
+  margin: 12px 2px;
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.price {
+  border: 1px solid #f6bc54;
+  color: #f6bc54;
+  width: 70px;
+  margin: 12px 2px;
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 15px;
+  display: flex;
+}
+
+.pricetitle{
+  float: left;
+  width: 30px;
+  text-align: left;
+}
+
+.priceamount{
+  float: right;
+  width: 30px;
+  text-align: right;
+}
+
+.casetitle {
+  width: 50%;
+  text-overflow : ellipsis;
+  overflow : hidden;
+  white-space: nowrap;
+  margin: 12px 20px;
+  padding: 5px 3px 3px 3px;
+  font-size: 15px;
+}
+
+.arrowicon {
+  max-width: 10%;
+  margin: 12px 10px;
+  padding: 3px;
+  position: absolute;
+  right: 1%;
+}
+
+.pawbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  width: 200px;
+  font-size: 15px;
+}
+
+.takercount{
+  color: #f6bc54;
+}
+
+.pawicon {
+  margin-right: 10px;
+}
+
+.dayhelppage{
+  position: absolute;
+  bottom: 1%;
+  left: 48%;
+}

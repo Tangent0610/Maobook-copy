@@ -1,0 +1,28 @@
+.imgchange {
+  background-color:none ;
+ margin: auto;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../storePic/prev.svg)!important;
+}
+
+.carousel-control-next-icon {
+  background-image: url(../storePic/next.svg)!important;
+}
+.share {
+  border-top: 1px solid #e2e8ec;
+}
+.imgarea {
+  width: 600px;
+  height: 400px;
+
+  img{
+    margin:auto;
+    height: 100%;
+  }
+}
+
+.pro-detail{
+  color: #6A5F4B;
+}

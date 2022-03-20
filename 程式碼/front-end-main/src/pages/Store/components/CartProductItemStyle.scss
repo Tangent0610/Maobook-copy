@@ -1,0 +1,79 @@
+.deletIcon { //刪除btn
+  position: absolute;
+  right: 3%;
+  top: 13%;
+  z-index: 10;
+}
+.setbgg{
+  position: relative;
+  
+}
+.cart-product {
+  width: 150px;
+  height: 170px;
+  margin: auto;
+}
+
+
+.cart-product::after { //框線
+  content: '';
+  border: 1px solid#fcb736;
+  border-radius: 30px;
+  width: 160px;
+  height: 275px;
+  background: none;
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  z-index: -1;
+}
+.counter {
+  position: absolute;
+  top: 95%;
+  left: 75%;
+  z-index: 0;
+}
+.cart-title {
+  height: 60px;
+  padding: 0 5px 0 5px;
+  font-size: 0.8rem;
+  margin: 5px 10px 0 10px;
+  color: #6a5f4b;
+}
+.cart-price {
+  font-weight: 700;
+  margin: 0 0 0 20px;
+  color: #6a5f4b;
+}
+.cart-price2 {
+  margin: 5px 0 0 20px;
+  color: #6a5f4b;
+}
+
+.cart-price::after {
+  content: '';
+  width: 135px;
+  height: 1px;
+  background: #fcb736;
+  position: absolute;
+  top: 90%;
+  left: 10%;
+}
+
+.counter {
+  position: relative;
+  top: 1%;
+  left: 0%;
+  z-index: 2;
+}
+.num {
+  margin: 0 5px 0 5px;
+  font-size: 0.8rem;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1px solid #fcb736;
+  background: white;
+  text-align: center;
+  line-height: 21px;
+}

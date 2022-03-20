@@ -1,0 +1,71 @@
+// Recom start
+.recom-yourpets {
+  // section1
+  width: auto;
+  border: 1px solid #f6bc54;
+  border-radius: 25px;
+  padding: 18px 54px 18px 54px;
+}
+.recom-pet {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.cover-fit {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.recomArea {
+  //section2
+  width: 800px;
+  height: 420px;
+  border: 1px solid #f6bc54;
+  border-radius: 25px;
+  margin-top: 90px;
+  padding-left: 40px;
+}
+.recom-avatar {
+  border: 4px solid #f6bc54;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  top: -60px;
+  left: -13%;
+  
+}
+.text6 {
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.recom-petname,
+.recom-describe {
+  color: #6a5f4b;
+  font-weight: 600;
+  position: relative;
+  top: -5%;
+}
+
+.recom-describe 
+{
+  font-size: 0.9rem;
+  span {
+  color: #f6bc54;
+  font-weight: 700;
+  }
+}
+
+.weRecom {
+  position: relative;
+  left: 35%;
+  top: -80px;
+}
+.recomPro {
+  position: relative;
+  top: -22%;
+}

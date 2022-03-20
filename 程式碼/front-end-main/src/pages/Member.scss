@@ -1,0 +1,167 @@
+// 顏色變數
+$primary: #f6bc54;
+$secondary: #6a5f4b;
+// navbar的高度
+$nav-height: 56px;
+// footer的高度
+$footer-height: 60px;
+
+// 共用模組
+.avatar-cover-fit {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.text-grey {
+  color: #c4c4c4;
+}
+// TODO: 減去的高度需根據 final 的 body margin 和 footer 高度調整
+// member 區塊高度設定
+.member-content {
+  margin-top: 80px;
+  min-height: calc(100vh - $nav-height - $footer-height);
+  padding: 0.5rem 0.5rem 1rem 0.5rem;
+  > .container {
+    > .row {
+      height: 90%;
+    }
+  }
+  .loading-paw {
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .member-content {
+    min-height: calc(100vh - $nav-height - $footer-height);
+    margin-top: 20px;
+  }
+}
+
+// sidenav
+.member-sidenav {
+  // align-self: start;
+  padding: 1rem 2rem 4rem 2rem;
+  border-right: 2px solid $primary;
+  font-size: 0.9rem;
+  font-weight: bold;
+  nav {
+    height: 350px;
+    .nav-link {
+      padding: 1rem 1rem;
+    }
+    .active {
+      color: $secondary;
+    }
+  }
+  .nav-item a:hover {
+    color: $secondary;
+  }
+}
+// sidenav 的 RWD for pad
+@media only screen and (max-width: 992px) {
+  .member-sidenav {
+    padding: 0 0 0.5rem 0;
+    border: none;
+    nav {
+      height: auto;
+      font-size: 1.2rem;
+    }
+  }
+}
+// sidenav 的 RWD for mobile
+@media only screen and (max-width: 768px) {
+  .member-sidenav {
+    padding: 0;
+  }
+}
+
+// 會員資料區塊
+.member-info {
+  padding: 0.5rem 4rem 2rem 6rem;
+  > .info-card {
+    margin-left: 1rem;
+    min-height: 90%;
+    padding: 2rem;
+    border: 1px solid $primary;
+    border-radius: 1rem;
+    .form-control {
+      border-radius: 1rem;
+    }
+  }
+  .avatar-info {
+    max-width: 70%;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 50%;
+  }
+  .edit-icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-20px, 20px);
+    background: $primary;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+  .info-table {
+    table {
+      margin-top: 1rem;
+      color: $secondary;
+      font-weight: 550;
+      td {
+        vertical-align: middle;
+      }
+      .form-control {
+        height: auto;
+        padding: 0.1rem 0.75rem;
+        text-align: center;
+      }
+    }
+  }
+}
+// 會員資料區塊的 RWD for pad
+@media only screen and (max-width: 992px) {
+  .member-info {
+    .info-card {
+      margin-left: 0;
+      padding: 0.5rem;
+    }
+    .avatar {
+      max-width: 40%;
+    }
+    .info-table {
+      table {
+        margin-bottom: 1.5rem;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+// 會員資料區塊的 RWD for mobile
+@media only screen and (max-width: 768px) {
+  .member-info {
+    padding: 0 1rem 1.5rem 1rem;
+    .info-card {
+      margin-left: 0;
+      padding: 0.1rem;
+    }
+    .avatar {
+      margin-top: 0.5rem;
+      max-width: 30%;
+    }
+    .info-table {
+      table {
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+        font-weight: 400;
+      }
+    }
+  }
+}

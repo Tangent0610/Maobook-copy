@@ -1,0 +1,35 @@
+@import "../../../../../style/UI/global.scss";
+
+.border-top-primary {
+  border-top: 2px solid $primary;
+}
+.zoomOut-btn{
+    position: relative;
+    justify-items: end;
+}
+$avatar-length: 4rem ;
+.daily-post-container {
+  height: 100%;
+  width: 100%;
+  padding: 0 0;
+  background-color: tan;
+  z-index: 1050;
+  .daily-post-tittle {
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    .daily-avatar {
+      height: $avatar-length;
+      width: $avatar-length;
+      background: url("../images/avatar_user.png");
+    }
+  }
+  .daily-post-body {
+    background-color: skyblue;
+    height: 60px;
+  }
+  .daily-post-comment {
+    background-color: snow;
+    height: 60px;
+  }
+}

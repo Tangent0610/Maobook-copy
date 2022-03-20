@@ -1,0 +1,73 @@
+/* intro css */
+.wrap {
+  height: 680px;
+  width: 100%;
+  position: relative;
+}
+
+.text2,
+.text3 {
+  display: none;
+}
+.MaoStore {
+  position: fixed;
+  left: 10%;
+}
+.person {
+  position: absolute;
+  right: 33%;
+  top: 4.5%;
+  z-index: 1;
+}
+.paw {
+  position: absolute;
+  right: 4%;
+  top: 16%;
+  z-index: 0;
+}
+.maoselection {
+  position: absolute;
+  right: 20%;
+  top: 51%;
+}
+.text1 {
+  width: 300px;
+  color: #6a5f4b;
+  font-size: 25px;
+  font-weight: 500;
+  position: absolute;
+  left: 20%;
+  top: 25%;
+}
+.playarea {
+  // background-color: #6a5f4b;
+  width: 300px;
+  height: 147px;
+  border-radius: 20px;
+  position: absolute;
+  left: 20%;
+  top: 38%;
+}
+.playbtn {
+  position: absolute;
+  left: 32%;
+  top: 57%;
+}
+.carticon {
+  position: fixed;
+  top: 118.46px;
+  right: 10%;
+}
+.text4 {
+  width: 100px;
+  font-size: 0.8rem;
+  text-align: center;
+  position: absolute;
+  left: 45.5%;
+  top: 75%;
+}
+.arrow {
+  position: absolute;
+  left: 49.27%;
+  top: 83%;
+}

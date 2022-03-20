@@ -1,0 +1,68 @@
+{
+  "name": "my-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@greatsumini/react-facebook-login": "^3.0.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
+    "axios": "^0.25.0",
+    "bootstrap": "4.6.0",
+    "chart.js": "^3.7.1",
+    "cors": "^2.8.5",
+    "date-fns": "^2.28.0",
+    "dotenv": "^14.3.2",
+    "eslint-config-react-app": "^7.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "gsap": "^3.9.1",
+    "install": "^0.13.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "prettier": "^2.5.1",
+    "react": "^17.0.2",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-bootstrap": "1.6.4",
+    "react-chartjs-2": "^4.0.1",
+    "react-dom": "^17.0.2",
+    "react-google-login": "^5.2.2",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "5.3.0",
+    "react-scripts": "5.0.0",
+    "sass": "^1.49.7",
+    "styled-components": "^5.3.3",
+    "sweetalert2": "^11.4.4",
+    "sweetalert2-react-content": "^4.2.0",
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

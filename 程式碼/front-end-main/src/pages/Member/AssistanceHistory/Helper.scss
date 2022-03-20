@@ -1,0 +1,189 @@
+//總寬˙700px
+
+.helper {
+  width: 800px;
+  height: 280px;
+  margin-left: 20px;
+  // background-color: rosybrown;
+  display: flex;
+}
+
+// 左邊人像
+.helpPeople {
+  width: 140px;
+  // background-color: salmon;
+  display: flex;
+  flex-direction: column;
+}
+
+.helpPhoto {
+  height: 120px;
+  width: 120px;
+  background-color: #f6bc54;
+  margin: auto;
+  margin-bottom: -70px;
+  border-radius: 100px;
+  z-index: 1;
+}
+.helpName {
+  height: 140px;
+  width: 90px;
+  text-align: center;
+  margin: auto;
+  border: 2px #f6bc54 solid;
+  border-radius: 20px;
+  background-color: white;
+  z-index: 0.5;
+}
+
+.nameTextH3 {
+  margin-top: 60px;
+  color: #6a5f4b;
+}
+.nameTextp {
+  margin-top: 0px;
+  color: #f6bc54;
+}
+
+// 水平線
+.helperBr {
+  border-right: 2px solid #6a5f4b;
+}
+// 中間資訊
+.helpInfo {
+  width: 300px;
+  margin-left: 10px;
+  // background-color: seashell;
+}
+.helpInfoUp {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 40px;
+  font-size: 15px;
+  color: #6a5f4b;
+}
+
+.helpInfoDown {
+  width: 300px;
+  height: 150px;
+  margin-left: -20px;
+  margin-top: 40px;
+}
+
+// radio
+.inputCircle {
+  display: none;
+}
+
+.labelNo {
+  background: url('./img/helpNo.svg');
+  margin-left: 40px;
+  margin-right: -20px;
+  padding-left: 52px;
+  padding-bottom: 99px;
+  z-index: 1;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+  &:focus {
+    opacity: 1;
+  }
+  &.active {
+    opacity: 1;
+  }
+}
+.labelOk {
+  background: url('./img/helpOk.svg');
+  margin-left: 40px;
+  margin-right: -20px;
+  padding-left: 52px;
+  padding-bottom: 99px;
+  z-index: 1;
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+  }
+  &:focus {
+    opacity: 1;
+  }
+  &.active {
+    opacity: 1;
+  }
+}
+
+.labelDo {
+  background: url('./img/helpDo.svg');
+  margin-left: 40px;
+  margin-right: -20px;
+  padding-left: 52px;
+  padding-bottom: 99px;
+  z-index: 1;
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+  }
+  &:focus {
+    opacity: 1;
+  }
+  &.active {
+    opacity: 1;
+  }
+}
+
+.labelFinish {
+  background: url('./img/helpFinish.svg');
+  margin-left: 40px;
+  margin-right: -20px;
+  padding-left: 52px;
+  padding-bottom: 99px;
+  z-index: 1;
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+  }
+  &:focus {
+    opacity: 1;
+  }
+  &.active {
+    opacity: 1;
+  }
+}
+
+// 右邊留言
+
+.helpTextDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.helpText {
+  width: 140px;
+  height: 185px;
+  margin: 20px 30px 0px 30px;
+  padding: 20px 20px 20px 20px;
+  border: 2px #f6bc54 solid;
+  border-radius: 20px 20px 0px 0px;
+  background-color: white;
+  color: #6a5f4b;
+  font-size: 18px;
+}
+
+.HelperSummitButton {
+  width: 140px;
+  height: 45px;
+  margin: -5px 30px 20px 30px;
+  // padding: 20px 20px 20px 20px;
+  border-radius: 0px 0px 20px 20px;
+  background-color: white;
+  color: #f6bc54;
+  border: 2px solid #f6bc54;
+  transition-duration: 0.4s;
+  font-size: 18px;
+  justify-content: flex-end;
+  &:hover {
+    background-color: #f6bc54;
+    color: white;
+  }
+}
